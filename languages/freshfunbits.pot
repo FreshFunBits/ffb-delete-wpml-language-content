@@ -1,0 +1,100 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-28 16:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: main.php:51
+msgid "Wrong nonce! Please refresh this page!"
+msgstr ""
+
+#: main.php:54 inc/admin-page.php:57
+msgid ""
+"Yay! WPML has not been installed on your site. You do not need to use this "
+"plugin!"
+msgstr ""
+
+#: main.php:57
+msgid "Please select a language!"
+msgstr ""
+
+#: main.php:73
+#, php-format
+msgid "%1$d remaining elements of the \"%2$s\" language..."
+msgstr ""
+
+#: main.php:84
+msgid ""
+"Please select the correct language. The selected language does not exist."
+msgstr ""
+
+#: inc/admin-page.php:36
+msgid "Delete WPML Language Content by FreshFunBits"
+msgstr ""
+
+#: inc/admin-page.php:37
+msgid "Delete WPML Language Content"
+msgstr ""
+
+#: inc/admin-page.php:65
+msgid "Before running the action!!!"
+msgstr ""
+
+#: inc/admin-page.php:68
+msgid "Make a database backup of your site before proceeding this."
+msgstr ""
+
+#: inc/admin-page.php:69
+msgid ""
+"If your site has so much to-be-deleted content, it is recommended to disable "
+"all other plugins."
+msgstr ""
+
+#: inc/admin-page.php:70
+msgid "Delete or deactive this plugin after finishing this action."
+msgstr ""
+
+#: inc/admin-page.php:80
+msgid "Items deleted per batch"
+msgstr ""
+
+#: inc/admin-page.php:89
+msgid "Content language will be deleted"
+msgstr ""
+
+#: inc/admin-page.php:94
+msgid "- Select -"
+msgstr ""
+
+#: inc/admin-page.php:106
+msgid "Delete this language content"
+msgstr ""
+
+#. Name of the plugin
+msgid "FFB Delete WPML Language Content"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This small plugin removes any language content on your WPML site. It is "
+"useful when you no longer want the content of a specific language."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://freshfunbits.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "FreshFunBits"
+msgstr ""

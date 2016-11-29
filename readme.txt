@@ -19,6 +19,7 @@ Features:
 * Have the option to choose `Items deleted per batch`, make sure your site will not be crashed.
 * Work independently with WPML.
 
+If you can report bugs or contribute code on [this GitHub repo](https://github.com/FreshFunBits/ffb-delete-wpml-language-content).
 
 == Installation ==
 

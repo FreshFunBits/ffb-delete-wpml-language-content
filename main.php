@@ -1,13 +1,13 @@
 <?php
 /*
  * Plugin Name: FFB Delete WPML Language Content
- * Plugin URI: http://freshfunbits.com
+ * Plugin URI: https://github.com/FreshFunBits/ffb-delete-wpml-language-content
  * Description: This small plugin removes any language content on your WPML site. It is useful when you no longer want the content of a specific language.
  * Author: FreshFunBits
  * Author URI: http://freshfunbits.com
  * Text Domain: freshfunbits
  * Domain Path: /languages
- * Version: 0.1-dev
+ * Version: 0.1
  * License:     GPLv2+
 */
 

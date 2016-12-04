@@ -6,13 +6,15 @@ Remove any language content on your WPML site. It is useful when you no longer w
 
 This small plugin removes any language content on your WPML site. This plugin works fine with all WPML versions since its idea is based on the [WPML's Tables](https://wpml.org/documentation/support/wpml-tables/) official guide.
 
+Official repo on WordPress.org: https://wordpress.org/plugins/ffb-delete-wpml-language-content/
+
 Features:
 
 * Remove the content of a specific language completely.
 * Have the option to choose `Items deleted per batch`, make sure your site will not be crashed.
 * Work independently with WPML.
 
-If you can report bugs or contribute code on [this GitHub repo](https://github.com/FreshFunBits/ffb-delete-wpml-language-content).
+You can report bugs or contribute code on [this GitHub repo](https://github.com/FreshFunBits/ffb-delete-wpml-language-content).
 
 ## Installation
 
@@ -42,6 +44,9 @@ In short, all WPML versions. Because its idea is based on the [WPML's Tables](ht
 ![The plugin screen in action](screenshot-1.png "The plugin screen in action")
 
 ## Changelog
+
+### 0.1.1 
+* Minor update: some texts only.
 
 ### 0.1
 * The first release.

@@ -1,13 +1,13 @@
 <?php
 /*
- * Plugin Name: FFB Delete WPML Language Content
+ * Plugin Name: Delete WPML Language Content by FreshFunBits
  * Plugin URI: https://github.com/FreshFunBits/ffb-delete-wpml-language-content
  * Description: This small plugin removes any language content on your WPML site. It is useful when you no longer want the content of a specific language.
  * Author: FreshFunBits
  * Author URI: http://freshfunbits.com
  * Text Domain: freshfunbits
  * Domain Path: /languages
- * Version: 0.1
+ * Version: 0.1.1
  * License:     GPLv2+
 */
 
@@ -35,6 +35,7 @@ class FFB_Delete_WPML {
 
 	/**
 	 * Localize the plugin
+     * @since 0.1
 	 */
 	public function i18n() {
 		load_plugin_textdomain( 'freshfunbits', false, basename( dirname( __FILE__ ) ) . '/languages/' );
@@ -42,6 +43,7 @@ class FFB_Delete_WPML {
 
 	/**
 	 * Run the deleting action
+     * @since 0.1
 	 */
 	public function run_deleting_ajax_action() {
 
@@ -93,6 +95,7 @@ class FFB_Delete_WPML {
 	/**
 	 * Check if WPML is installed
 	 * @return bool
+     * @since 0.1
 	 */
 	public static function is_wpml_installed() {
 		global $wpdb;
@@ -227,6 +230,7 @@ class FFB_Delete_WPML {
 	/**
 	 * Count the number of rows in the icl_translations table
 	 * @return int
+     * @since 0.1
 	 */
 	public function count_icl_translations() {
 
@@ -240,7 +244,7 @@ class FFB_Delete_WPML {
 	}
 
 	/* @todo Future Versions */
-	// - Change the name to "Delete WPML Language Content by FreshFunBits"
+	// - Done: Change the name to "Delete WPML Language Content by FreshFunBits"
 	// - Create the log
 	// - Move posts to 'trash' instead of deleting them
 	// - Deal with the case the to-be-deleted-language is the original language of posts

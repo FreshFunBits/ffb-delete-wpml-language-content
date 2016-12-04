@@ -1,9 +1,9 @@
-=== FFB Delete WPML Language Content ===
+=== Delete WPML Language Content by FreshFunBits ===
 Contributors: freshfunbits
-Tags: wpml, i18n, language content, multilingual, clean
+Tags: wpml, i18n, language content, multilingual, delete wpml, delete language
 Requires at least: 3.5
 Tested up to: 4.6
-Stable tag: 0.1
+Stable tag: 0.1.1
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ Features:
 * Have the option to choose `Items deleted per batch`, make sure your site will not be crashed.
 * Work independently with WPML.
 
-If you can report bugs or contribute code on [this GitHub repo](https://github.com/FreshFunBits/ffb-delete-wpml-language-content).
+You can report bugs or contribute code on [this GitHub repo](https://github.com/FreshFunBits/ffb-delete-wpml-language-content).
 
 == Installation ==
 
@@ -53,6 +53,9 @@ In short, all WPML versions. Because its idea is based on the [WPML's Tables](ht
 1. The plugin screen in action!
 
 == Changelog ==
+
+= 0.1.1 =
+* Minor update: some texts only.
 
 = 0.1 =
 * The first release.

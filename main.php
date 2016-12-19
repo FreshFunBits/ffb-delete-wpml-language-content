@@ -160,10 +160,13 @@ class FFB_Delete_WPML {
 			// If the current element is a taxonomy term
 			if ( 'tax' == substr( $element->element_type, 0, 3 ) ) {
 
-				$term     = $element->element_id;
+                $term_taxonomy_id = $element->element_id;
+                $term_object = get_term_by( 'term_taxonomy_id', $term_taxonomy_id);
+                $term_id = $term_object->term_id;
+
 				$taxonomy = substr( $element->element_type, 4 );
 
-				wp_delete_term( $term, $taxonomy );
+				wp_delete_term( $term_id, $taxonomy );
 
 			}
 

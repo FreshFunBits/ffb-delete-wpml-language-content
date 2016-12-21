@@ -35,7 +35,7 @@ class FFB_Delete_WPML {
 
 	/**
 	 * Localize the plugin
-     * @since 0.1
+	 * @since 0.1
 	 */
 	public function i18n() {
 		load_plugin_textdomain( 'freshfunbits', false, basename( dirname( __FILE__ ) ) . '/languages/' );
@@ -43,7 +43,7 @@ class FFB_Delete_WPML {
 
 	/**
 	 * Run the deleting action
-     * @since 0.1
+	 * @since 0.1
 	 */
 	public function run_deleting_ajax_action() {
 
@@ -95,7 +95,7 @@ class FFB_Delete_WPML {
 	/**
 	 * Check if WPML is installed
 	 * @return bool
-     * @since 0.1
+	 * @since 0.1
 	 */
 	public static function is_wpml_installed() {
 		global $wpdb;
@@ -160,9 +160,9 @@ class FFB_Delete_WPML {
 			// If the current element is a taxonomy term
 			if ( 'tax' == substr( $element->element_type, 0, 3 ) ) {
 
-                $term_taxonomy_id = $element->element_id;
-                $term_object = get_term_by( 'term_taxonomy_id', $term_taxonomy_id);
-                $term_id = $term_object->term_id;
+				$term_taxonomy_id = $element->element_id;
+				$term_object      = get_term_by( 'term_taxonomy_id', $term_taxonomy_id );
+				$term_id          = $term_object->term_id;
 
 				$taxonomy = substr( $element->element_type, 4 );
 
@@ -233,7 +233,7 @@ class FFB_Delete_WPML {
 	/**
 	 * Count the number of rows in the icl_translations table
 	 * @return int
-     * @since 0.1
+	 * @since 0.1
 	 */
 	public function count_icl_translations() {
 

@@ -7,7 +7,7 @@
  * Author URI: http://freshfunbits.com
  * Text Domain: freshfunbits
  * Domain Path: /languages
- * Version: 0.1.1
+ * Version: 0.2
  * License:     GPLv2+
 */
 

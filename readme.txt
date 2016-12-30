@@ -2,8 +2,8 @@
 Contributors: freshfunbits
 Tags: wpml, i18n, language content, multilingual, delete wpml, delete language
 Requires at least: 3.5
-Tested up to: 4.6
-Stable tag: 0.1.1
+Tested up to: 4.7
+Stable tag: 0.2
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,10 @@ In short, all WPML versions. Because its idea is based on the [WPML's Tables](ht
 1. The plugin screen in action!
 
 == Changelog ==
+
+= 0.2 =
+* Fixed: Delete terms by using `term_taxonomy_id` rather than `term_id`
+* Test with WordPress 4.7
 
 = 0.1.1 =
 * Minor update: some texts only.

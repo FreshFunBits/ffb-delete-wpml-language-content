@@ -45,6 +45,10 @@ In short, all WPML versions. Because its idea is based on the [WPML's Tables](ht
 
 ## Changelog
 
+### 0.2
+* Fixed: Delete terms by using `term_taxonomy_id` rather than `term_id`
+* Test with WordPress 4.7
+
 ### 0.1.1 
 * Minor update: some texts only.
 
